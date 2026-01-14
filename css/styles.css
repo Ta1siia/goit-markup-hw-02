@@ -19,7 +19,7 @@ ul {
   color: #4d5ae5;
 }
 .header-navigation,
-.header-navigation a {
+.nav-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -29,13 +29,13 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.header-navigation a:hover {
+.nav-link:hover {
   color: #404bbf;
 }
-.header-navigation a:focus {
+.nav-link:focus {
   color: #404bbf;
 }
-.header-contacts a {
+.contacts-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -46,10 +46,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-contacts a:hover {
+.contacts-link:hover {
   color: #404bbf;
 }
-.header-contacts a:focus {
+.contacts-link:focus {
   color: #404bbf;
 }
 .hero {
@@ -85,14 +85,14 @@ button {
 .our-features-section {
   list-style: none;
 }
-.features p {
+.feature-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-weight: 400;
   font-size: 16px;
 }
-.features h3 {
+.feature-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -101,37 +101,37 @@ button {
 .our-team-section {
   background-color: #f4f4fd;
 }
-.our-team-section h2 {
+.team-title {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
-.our-team-list h3 {
+.worker-name {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
-.our-team-list p {
+.worker-position {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-team-list li {
+.our-team-list {
   list-style: none;
   background-color: #ffffff;
 }
-.our-portfolio-section h2 {
+.portfolio-title {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
-.our-portfolio-section h3 {
+.project-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -139,7 +139,7 @@ button {
   color: #2e2f42;
 }
 
-.our-portfolio-section p {
+.project-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -147,7 +147,7 @@ button {
   color: #434455;
 }
 
-.our-portfolio-section li {
+.our-portfolio-list {
   list-style: none;
 }
 .footer {
@@ -161,7 +161,7 @@ button {
   text-decoration: none;
   color: #f4f4fd;
 }
-.footer p {
+.footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
