@@ -95,6 +95,8 @@ button {
 .features h3 {
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 .our-team-section {
   background-color: #f4f4fd;
@@ -117,6 +119,7 @@ button {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .our-team-list li {
   list-style: none;
@@ -160,4 +163,8 @@ button {
 }
 .footer p {
   color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
