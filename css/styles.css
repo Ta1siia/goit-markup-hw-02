@@ -14,6 +14,7 @@ ul {
   text-decoration: none;
   color: #2e2f42;
   letter-spacing: 0.03em;
+  line-height: 1.16;
 }
 .accent {
   color: #4d5ae5;
@@ -55,7 +56,7 @@ ul {
 .hero {
   background-color: #2e2f42;
 }
-h1 {
+.hero-title {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -121,7 +122,7 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.our-team-list {
+.our-team-members {
   list-style: none;
   background-color: #ffffff;
 }
@@ -147,7 +148,7 @@ button {
   color: #434455;
 }
 
-.our-portfolio-list {
+.our-portfolio-works {
   list-style: none;
 }
 .footer {
@@ -160,6 +161,8 @@ button {
   text-transform: uppercase;
   text-decoration: none;
   color: #f4f4fd;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .footer-text {
   color: #f4f4fd;
